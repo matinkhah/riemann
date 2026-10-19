@@ -1,8 +1,6 @@
 # Mathematical Decoration Is Not Security: A Critical Analysis of a Zeta-Inspired Key-Derivation Prototype
 
-Here is a comprehensive, production-ready GitHub README.md for your reproduction script. It is structured to serve as clear documentation for your research artifact, matching the precise tone and findings of your paper.
-
-ZKD Reproducibility Artifact (zkd_colab.py)
+## ZKD Reproducibility Artifact (zkd_colab.py)
 
 This repository contains the standalone, parallelised Python script used to generate all empirical measurements, key-space statistics, and cross-platform precision metrics presented in the paper:
 "Mathematical Decoration Is Not Security: A Critical Analysis of a Zeta-Inspired Key-Derivation Prototype"
@@ -70,6 +68,4 @@ This ensures that the final rendered figures within the text always match your e
 🏷️ CRediT Attribution
 
 • S. Mojtaba Matinkhah: Conceptualization, Methodology, Software, Validation, Formal analysis, Investigation, Data curation, Writing — original draft, Visualization.
-If you want to customize this further, let me know:
-• If you want to append a specific open-source license block (e.g., MIT, Apache 2.0).
-• If you would like to include a pre-formatted citation snippet (BibTeX block) at the bottom.
+
