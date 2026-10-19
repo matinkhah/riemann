@@ -25,8 +25,7 @@ Running in Google Colab (Recommended)
 1. Open a fresh Google Colab notebook instance (the default standard CPU runtime provides 2 vCPUs).
 2. Upload zkd_colab.py using the file explorer sidebar on the left, or write it directly in a code cell using:bash
 %%writefile zkd_colab.py
-# [Paste code here]
-Use code with caution.
+[Code](https://github.com/matinkhah/riemann/blob/main/zkd_colab.py)
 3. Run a fast diagnostic smoke test (≈ 1 minute execution window):bash
 !python zkd_colab.py --quick
 Use code with caution.
