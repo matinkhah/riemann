@@ -1,0 +1,136 @@
+{
+  "meta": {
+    "seed": 2026,
+    "quick": false,
+    "workers": 2,
+    "python": "3.13.16",
+    "numpy": "2.1.3",
+    "platform": "Linux-6.6.122+-x86_64-with-glibc2.39",
+    "cpu_model": "Intel(R) Xeon(R) CPU @ 2.20GHz",
+    "logical_cpus": 2,
+    "runtime_s": 41.817370653152466
+  },
+  "density": {
+    "84930211.5839201": {
+      "prototype": 0.33269611137615224,
+      "true_mean": 0.382666909712964
+    },
+    "14.134725": {
+      "prototype": 1.8429588112343978,
+      "true_mean": 7.749771719834615
+    }
+  },
+  "grid_1e-6": {
+    "points": 200000,
+    "step": 1e-06,
+    "width": 0.19999999999999998,
+    "distinct": 23616
+  },
+  "grid_1e-7": {
+    "points": 400000,
+    "step": 1e-07,
+    "width": 0.04,
+    "distinct": 5019
+  },
+  "perturbation": {
+    "n": 300,
+    "median_smallest_perturbation": 1e-05,
+    "never_changed": 0,
+    "unchanged_by_1e-8": 1.0
+  },
+  "raw": {
+    "n": 20000,
+    "entropy_bits_per_byte": 7.9032903686133515,
+    "never_observed": 1,
+    "max_over_min": 5.082965994962216,
+    "chi2": 392030.3084
+  },
+  "precision": {
+    "n": 20000,
+    "longdouble_mantissa_bits": 64,
+    "longdouble_is_x87_80bit": true,
+    "mismatching": 119,
+    "rate": 0.00595,
+    "mean_differing_bytes": 1.0
+  },
+  "throughput": {
+    "workers": 2,
+    "single_keys_per_s": 53799.17040298331,
+    "pool_keys_per_s": 68037.87098006725,
+    "speedup": 1.2646639431505873
+  },
+  "attack_coverage": {
+    "window": 0.02,
+    "ref_points": 1342177,
+    "ref_distinct": 2537,
+    "ref_density_per_unit": 126850.02646297768,
+    "secrets_found_by_reference": 1.0,
+    "strides": [
+      {
+        "stride_ulps": 7,
+        "step": 1.043081283569336e-07,
+        "cell_coverage": 0.9932991722506898,
+        "hit_probability": 1.0,
+        "evals_per_unit_t": 9586980.57142857
+      },
+      {
+        "stride_ulps": 22,
+        "step": 3.2782554626464844e-07,
+        "cell_coverage": 0.9779266850610958,
+        "hit_probability": 0.9998,
+        "evals_per_unit_t": 3050402.909090909
+      },
+      {
+        "stride_ulps": 67,
+        "step": 9.98377799987793e-07,
+        "cell_coverage": 0.9369333858888451,
+        "hit_probability": 0.99785,
+        "evals_per_unit_t": 1001624.8358208955
+      },
+      {
+        "stride_ulps": 201,
+        "step": 2.995133399963379e-06,
+        "cell_coverage": 0.8352384706346078,
+        "hit_probability": 0.9808,
+        "evals_per_unit_t": 333874.94527363183
+      },
+      {
+        "stride_ulps": 671,
+        "step": 9.998679161071777e-06,
+        "cell_coverage": 0.5770595191170674,
+        "hit_probability": 0.85255,
+        "evals_per_unit_t": 100013.21013412817
+      }
+    ]
+  },
+  "density_mean": 121777.5,
+  "extrapolation": {
+    "range": [
+      10000000.0,
+      100000000.0
+    ],
+    "keys_low": 10627200000000.002,
+    "keys_high": 11292750000000.0,
+    "keys_mean": 10959975000000.0,
+    "log2_keys_mean": 43.317309741011414,
+    "years_ideal_one_core_low": 6.259495161259485,
+    "years_ideal_one_core_high": 6.651508768284499,
+    "years_ideal_pool_low": 4.949532399623532,
+    "years_ideal_pool_high": 5.259506926175157,
+    "grid_step": 9.98377799987793e-07,
+    "grid_evals_total": 90146235223880.6,
+    "grid_hit_probability": 0.99785,
+    "grid_years_pool": 41.98487954914568,
+    "cpu_model": "Intel(R) Xeon(R) CPU @ 2.20GHz",
+    "caveat": "Density measured near t0=84930211.5839201 and extrapolated."
+  },
+  "attack": {
+    "chosen": {
+      "stride_ulps": 67,
+      "step": 9.98377799987793e-07,
+      "cell_coverage": 0.9369333858888451,
+      "hit_probability": 0.99785,
+      "evals_per_unit_t": 1001624.8358208955
+    }
+  }
+}
